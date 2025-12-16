@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  storyforge-landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: storyforge-landing
+    ports:
+      - "3010:3010"
+    restart: unless-stopped
+    networks:
+      - storyforge-network
+
+networks:
+  storyforge-network:
+    driver: bridge
