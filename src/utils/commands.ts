@@ -419,9 +419,9 @@ export const commands: Record<string, CommandFn> = {
   RESOURCES
   ──────────────────────────────────────────────────────────────────────────────
   
-  API Reference         docs.storyforge.dev/api
-  Getting Started       docs.storyforge.dev/quickstart
-  Tutorials             docs.storyforge.dev/tutorials
+  API Reference         games.tigregotico.pt/api
+  Getting Started       games.tigregotico.pt/quickstart
+  Tutorials             games.tigregotico.pt/tutorials
   Examples              github.com/storyforge/examples
   
   ──────────────────────────────────────────────────────────────────────────────
@@ -459,8 +459,8 @@ export const commands: Record<string, CommandFn> = {
   FROM SOURCE
   ──────────────────────────────────────────────────────────────────────────────
   
-  $ git clone https://github.com/storyforge/engine.git
-  $ cd engine
+  $ git clone https://github.com/HiveMindInsiders/story-forge.git
+  $ cd story-forge
   $ pip install -e .
   
   ──────────────────────────────────────────────────────────────────────────────
@@ -564,7 +564,7 @@ Open-source engine for procedurally generated, LLM-powered interactive fiction.
 
 ## Documentation
 
-See docs.storyforge.dev for full documentation.
+See games.tigregotico.pt for full documentation.
 
 ## License
 
@@ -584,7 +584,7 @@ See LICENSE-AGPL and LICENSE-APACHE for full terms.`,
 3. Write tests for your changes
 4. Submit a pull request
 
-See docs.storyforge.dev/contributing for detailed guidelines.`,
+See games.tigregotico.pt/contributing for detailed guidelines.`,
 
       'setup.py': `from setuptools import setup, find_packages
 

@@ -153,7 +153,6 @@ class AsciiFilter {
       }
 
       this.asciify(this.context, w, h);
-      this.hue();
     }
   }
 

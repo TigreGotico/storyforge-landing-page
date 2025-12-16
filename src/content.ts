@@ -211,6 +211,6 @@ Priority: 10`
 
   footer: {
     copyright: 'StoryForge © 2024 | AGPL / Apache 2.0',
-    repository: 'github.com/storyforge/engine'
+    repository: 'github.com/HiveMindInsiders/story-forge'
   }
 }

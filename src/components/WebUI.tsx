@@ -84,7 +84,7 @@ export default function WebUI({ onSwitchToTerminal }: WebUIProps) {
       <footer className="relative z-10 border-t border-[#00ff00]/30 py-6 flex-shrink-0 bg-[#0a0a0a]/90">
         <div className="max-w-6xl mx-auto px-6 text-center text-[#00ff00]/50 text-sm">
           <p>StoryForge © 2024 | AGPL / Apache 2.0</p>
-          <p className="mt-1">github.com/storyforge/engine</p>
+          <p className="mt-1">github.com/HiveMindInsiders/story-forge</p>
         </div>
       </footer>
     </div>
@@ -132,7 +132,7 @@ function HomeSection() {
             {CONTENT.hero.cta_primary}
           </button>
           <a 
-            href="https://github.com/storyforge/engine" 
+            href="https://github.com/HiveMindInsiders/story-forge" 
             className="px-8 py-3 border border-[#00ff00] hover:bg-[#00ff00]/10 transition-colors"
           >
             {CONTENT.hero.cta_secondary}
@@ -372,29 +372,29 @@ function DocsSection() {
       <div className="text-center py-12 border border-[#00ff00]/30">
         <p className="text-xl text-[#00ff00]/70 mb-8">Ready to build?</p>
         <a 
-          href="https://docs.storyforge.dev" 
+          href="https://games.tigregotico.pt" 
           className="inline-block px-8 py-4 bg-[#00ff00] text-black font-bold hover:bg-[#00cc00] transition-colors"
         >
-          $ open docs.storyforge.dev
+          $ open games.tigregotico.pt
         </a>
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
         <a href="#" className="block border border-[#00ff00]/30 p-6 hover:border-[#00ff00]/60 transition-colors">
           <h3 className="font-bold mb-2">API Reference</h3>
-          <p className="text-[#00ff00]/50 text-sm">docs.storyforge.dev/api</p>
+          <p className="text-[#00ff00]/50 text-sm">games.tigregotico.pt/api</p>
         </a>
         <a href="#" className="block border border-[#00ff00]/30 p-6 hover:border-[#00ff00]/60 transition-colors">
           <h3 className="font-bold mb-2">Getting Started</h3>
-          <p className="text-[#00ff00]/50 text-sm">docs.storyforge.dev/quickstart</p>
+          <p className="text-[#00ff00]/50 text-sm">games.tigregotico.pt/quickstart</p>
         </a>
         <a href="#" className="block border border-[#00ff00]/30 p-6 hover:border-[#00ff00]/60 transition-colors">
           <h3 className="font-bold mb-2">Tutorials</h3>
-          <p className="text-[#00ff00]/50 text-sm">docs.storyforge.dev/tutorials</p>
+          <p className="text-[#00ff00]/50 text-sm">games.tigregotico.pt/tutorials</p>
         </a>
-        <a href="#" className="block border border-[#00ff00]/30 p-6 hover:border-[#00ff00]/60 transition-colors">
+        <a href="https://github.com/HiveMindInsiders/story-forge/tree/dev/demo_games" className="block border border-[#00ff00]/30 p-6 hover:border-[#00ff00]/60 transition-colors">
           <h3 className="font-bold mb-2">Examples</h3>
-          <p className="text-[#00ff00]/50 text-sm">github.com/storyforge/examples</p>
+          <p className="text-[#00ff00]/50 text-sm">github.com/HiveMindInsiders/story-forge/tree/dev/demo_games</p>
         </a>
       </div>
 
@@ -412,7 +412,7 @@ $ storyforge run`}
         <h3 className="font-bold mb-4">Community</h3>
         <div className="space-y-2 text-[#00ff00]/70">
           <p>Discord: discord.gg/storyforge</p>
-          <p>GitHub: github.com/storyforge/engine/discussions</p>
+          <p>GitHub: github.com/HiveMindInsiders/story-forge/discussions</p>
           <p>Twitter: @storyforge_dev</p>
         </div>
       </div>
